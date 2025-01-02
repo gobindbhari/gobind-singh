@@ -17,9 +17,9 @@ const Navbar = () => {
         <>
         <header className=''>
             <nav className='fixed top-0 z-50 bg-black'>
-                <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 px-10 border-b-[1px] border-[#ffff0048] duration-300 ease-in-out  min-h-[70px] max-md:py-0 max-h-full w-screen">
-                    <Link href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-                        <span className="self-center text-2xl font-semibold whitespace-nowrap text-purple-500 flex justify-center items-center gap-2">
+                <div className="max-w-screen flex flex-wrap items-center justify-between mx-auto p-4 px-10 border-b-[1px] border-[#ffff0048] duration-300 ease-in-out  min-h-[70px] max-md:py-0 max-h-full w-screen">
+                    <Link   href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
+                        <span  data-aos="zoom-in" data-aos-delay='600' className="self-center text-2xl font-semibold whitespace-nowrap text-purple-500 flex justify-center items-center gap-2">
                             {'< Gobind'}
                             <span className='font-bold text-2xl'>{'/'}</span>
                             {'Singh >'}

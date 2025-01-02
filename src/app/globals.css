@@ -5,3 +5,14 @@
 html {
     scroll-behavior: smooth;
   }
+
+
+
+@layer utilities {
+  .text-stroke{
+    -webkit-text-stroke: 2px rgb(255, 255, 255);
+  }
+  .bg-image{
+    background-image: url('/HeroSection/computer.jpg');
+  }
+}
