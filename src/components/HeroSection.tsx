@@ -19,7 +19,7 @@ const HeroSection = () => {
   
   return (
     <>
-      <div className="w-[100%] mt-[80px] min-h-fit px-3 flex max-lg:flex-col justify-between max-md:gap-2 gap-10">
+      <div className="hover-tilt w-[100%] mt-[80px] min-h-fit px-3 flex max-lg:flex-col justify-between max-md:gap-2 gap-10">
         <div data-aos="fade-right" data-aos-duration='1000' className="min-w-[320px] lg:max-w-[55%] font-bold md:pt-24 pt-5 md:pl-10 mx-auto flex flex-col gap-3">
           <h2 className='text-6xl max-md:text-2xl'>Hi, I am</h2>
           <h1 className='text-7xl max-md:text-5xl text-yellow-400'>Gobind Singh</h1>
