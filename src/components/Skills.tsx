@@ -1,5 +1,4 @@
 import React from 'react'
-import SkillCard from './SkillCard'
 import FrontendSkillCard from './FrontendSkillCard'
 
 
@@ -31,24 +30,27 @@ const Skills = () => {
     { name: 'Node Js', icon: '/icons/nodejs-icon.svg', alt: 'Node js' },
     { name: 'Express', icon: '/icons/express-icon.svg', alt: 'Express js' },
     { name: 'MongoDB', icon: '/icons/mongodb-icon.svg', alt: 'MongoDB' },
+    { name: 'Mongoose ODM', icon: '/icons/mongoose-icon.svg', alt: 'Mongoose ODM' },
     { name: 'MySQL', icon: '/icons/mysql-icon.svg', alt: 'MySQL' },
-    { name: 'Sequelize', icon: '/icons/sequelize-icon.svg', alt: 'Sequelize ORM' },
+    { name: 'Sequelize ORM', icon: '/icons/sequelize-icon.svg', alt: 'Sequelize ORM' },
   ];
   const otherskills: data[] = [
     { name: 'Git', icon: '/icons/git-icon.svg', alt: 'Git' },
-    { name: 'Express', icon: '/icons/express-icon.svg', alt: 'Express js' },
-    { name: 'MongoDB', icon: '/icons/mongodb-icon.svg', alt: 'MongoDB' },
-    { name: 'MySQL', icon: '/icons/mysql-icon.svg', alt: 'MySQL' },
-    { name: 'Sequelize', icon: '/icons/sequelize-icon.svg', alt: 'Sequelize ORM' },
+    { name: 'Github', icon: '/icons/github-icon.svg', alt: 'Github' },
+    { name: 'Postman', icon: '/icons/postman-icon.svg', alt: 'Postman' },
+    { name: 'MongoDB Compass', icon: '/icons/mongodb-icon.svg', alt: 'MongoDB Compass' },
+    { name: 'Vite', icon: '/icons/vite-icon.svg', alt: 'Vite' },
+    // { name: 'MySQL', icon: '/icons/mysql-icon.svg', alt: 'MySQL' },
+    // { name: 'Sequelize', icon: '/icons/sequelize-icon.svg', alt: 'Sequelize ORM' },
   ];
  
 
   return (
   <>
-  <div className="max-w-screen mt-3">
+  <div id='skills' className="max-w-screen pt-3 pb-3">
     {/* heading  */}
   <div className="">
-  <div className='text-stroke-p duration-200 mx-auto w-fit text-[200px] max-md:text-[100px] font-bold text-transparent'>
+  <div data-aos="zoom-in" data-aos-duration='1000' className='text-stroke-p mx-auto w-fit text-[200px] max-md:text-[100px] font-bold text-black'>
    
     Skills
     {/* <TextHoverEffect text='Skills' duration={3}/> */}

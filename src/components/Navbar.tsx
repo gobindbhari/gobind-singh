@@ -17,9 +17,9 @@ const Navbar = () => {
         <>
         <header className=''>
             <nav className='fixed top-0 z-50 bg-black'>
-                <div className="max-w-screen flex flex-wrap items-center justify-between mx-auto p-4 px-10 border-b-[1px] border-[#ffff0048] duration-300 ease-in-out  min-h-[70px] max-md:py-0 max-h-full w-screen">
-                    <Link   href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-                        <span  data-aos="zoom-in" data-aos-delay='600' className="self-center text-2xl font-semibold whitespace-nowrap text-purple-500 flex justify-center items-center gap-2">
+                <div className="max-w-full flex flex-wrap items-center justify-between mx-auto p-4 px-10 border-b-[1px] border-[#ffff0048] duration-300 ease-in-out  min-h-[70px] max-sm:px-4  max-md:py-0 max-h-full w-screen">
+                    <Link href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
+                        <span  data-aos="zoom-in" data-aos-delay='600' className="self-center text-2xl max-sm:text-lg font-semibold whitespace-nowrap text-purple-500 flex justify-center items-center gap-2">
                             {'< Gobind'}
                             <span className='font-bold text-2xl'>{'/'}</span>
                             {'Singh >'}
@@ -58,33 +58,33 @@ const Navbar = () => {
                         <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 text-white">
                             <li className="group">
                                 <Link
-                                    href="/"
+                                    href="#home"
                                     className="block py-2 px-3 text-white rounded md:bg-transparent md:p-0"
                                     aria-current="page"
                                 >
                                     Home
                                 </Link>
-                                <div className="opacity-0 bg-yellow-400 h-[3px] w-0 rounded-xl duration-300 group-hover:opacity-100 group-hover:w-full mx-auto"></div>
+                                <div className="opacity-0 bg-yellow-400 h-[3px] w-0 rounded-xl duration-700 group-hover:opacity-100 group-hover:w-full mx-auto"></div>
                             </li>
                             <li className="group">
                                 <Link
-                                    href="/"
+                                    href="#skills"
                                     className="block py-2 px-3 text-white rounded md:bg-transparent md:p-0"
                                     aria-current="page"
                                 >
                                     Skills
                                 </Link>
-                                <div className="opacity-0 bg-yellow-400 h-[3px] w-0 rounded-xl duration-300 group-hover:opacity-100 group-hover:w-full mx-auto"></div>
+                                <div className="opacity-0 bg-yellow-400 h-[3px] w-0 rounded-xl duration-700 group-hover:opacity-100 group-hover:w-full mx-auto"></div>
                             </li>
                             <li className="group">
                                 <Link
-                                    href="/"
+                                    href="#projects"
                                     className="block py-2 px-3 text-white rounded md:bg-transparent md:p-0"
                                     aria-current="page"
                                 >
                                     Projects
                                 </Link>
-                                <div className="opacity-0 bg-yellow-400 h-[3px] w-0 rounded-xl duration-300 group-hover:opacity-100 group-hover:w-full mx-auto"></div>
+                                <div className="opacity-0 bg-yellow-400 h-[3px] w-0 rounded-xl duration-700 group-hover:opacity-100 group-hover:w-full mx-auto"></div>
                             </li>
                             {/* <li className="group">
                                 <Link
@@ -109,23 +109,25 @@ const Navbar = () => {
                             <li className="group">
                                 <Link
                                     href="https://www.linkedin.com/in/gobind-singh-bhari/"
+                                    target='_blank'
                                     className="block py-2 px-3 text-white rounded md:bg-transparent md:p-0"
                                     aria-current="page"
                                 >
                                     Linkedin
                                 </Link>
-                                <div className="opacity-0 bg-yellow-400 h-[3px] w-0 rounded-xl duration-300 group-hover:opacity-100 group-hover:w-full mx-auto"></div>
+                                <div className="opacity-0 bg-yellow-400 h-[3px] w-0 rounded-xl duration-700 group-hover:opacity-100 group-hover:w-full mx-auto"></div>
                             </li>
                             <li className="group">
                                 <Link
                                     href="https://github.com/gobindbhari"
+                                    target='_blank'
                                     className="py-2 px-3 text-white rounded md:bg-transparent md:p-0 flex gap-1"
                                     aria-current="page"
                                 >
                                     Github 
                                     <span className='lg:block hidden'> Profile</span>
                                 </Link>
-                                <div className="opacity-0 bg-yellow-400 h-[3px] w-0 rounded-xl duration-300 group-hover:opacity-100 group-hover:w-full mx-auto"></div>
+                                <div className="opacity-0 bg-yellow-400 h-[3px] w-0 rounded-xl duration-700 group-hover:opacity-100 group-hover:w-full mx-auto"></div>
                             </li>
                         </ul>
                     </div>
@@ -139,33 +141,33 @@ const Navbar = () => {
                         <ul className="font-medium flex flex-col p-4 md:p-0  rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 text-white">
                             <li className="group">
                                 <Link
-                                    href="/"
+                                    href="#home"
                                     className="block py-2 px-3 text-white rounded md:bg-transparent md:p-0"
                                     aria-current="page"
                                 >
                                     Home
                                 </Link>
-                                <div className="opacity-0 bg-yellow-400 h-[3px] w-0 rounded-xl duration-300 group-hover:opacity-100 group-hover:w-full mx-auto"></div>
+                                <div className="opacity-0 bg-yellow-400 h-[3px] w-0 rounded-xl duration-700 group-hover:opacity-100 group-hover:w-full mx-auto"></div>
                             </li>
                             <li className="group">
                                 <Link
-                                    href="/"
+                                    href="#skills"
                                     className="block py-2 px-3 text-white rounded md:bg-transparent md:p-0"
                                     aria-current="page"
                                 >
                                     Skills
                                 </Link>
-                                <div className="opacity-0 bg-yellow-400 h-[3px] w-0 rounded-xl duration-300 group-hover:opacity-100 group-hover:w-full mx-auto"></div>
+                                <div className="opacity-0 bg-yellow-400 h-[3px] w-0 rounded-xl duration-700 group-hover:opacity-100 group-hover:w-full mx-auto"></div>
                             </li>
                             <li className="group">
                                 <Link
-                                    href="/"
+                                    href="#projects"
                                     className="block py-2 px-3 text-white rounded md:bg-transparent md:p-0"
                                     aria-current="page"
                                 >
                                     Projects
                                 </Link>
-                                <div className="opacity-0 bg-yellow-400 h-[3px] w-0 rounded-xl duration-300 group-hover:opacity-100 group-hover:w-full mx-auto"></div>
+                                <div className="opacity-0 bg-yellow-400 h-[3px] w-0 rounded-xl duration-700 group-hover:opacity-100 group-hover:w-full mx-auto"></div>
                             </li>
                             {/* <li className="group">
                                 <Link
@@ -190,22 +192,24 @@ const Navbar = () => {
                             <li className="group">
                                 <Link
                                     href="https://www.linkedin.com/in/gobind-singh-bhari/"
+                                    target='_blank'
                                     className="block py-2 px-3 text-white rounded md:bg-transparent md:p-0"
                                     aria-current="page"
                                 >
                                     Linkedin
                                 </Link>
-                                <div className="opacity-0 bg-yellow-400 h-[3px] w-0 rounded-xl duration-300 group-hover:opacity-100 group-hover:w-full mx-auto"></div>
+                                <div className="opacity-0 bg-yellow-400 h-[3px] w-0 rounded-xl duration-700 group-hover:opacity-100 group-hover:w-full mx-auto"></div>
                             </li>
                             <li className="group">
                                 <Link
                                     href="https://github.com/gobindbhari"
+                                    target='_blank'
                                     className="block py-2 px-3 text-white rounded md:bg-transparent md:p-0"
                                     aria-current="page"
                                 >
                                     Github Profile
                                 </Link>
-                                <div className="opacity-0 bg-yellow-400 h-[3px] w-0 rounded-xl duration-300 group-hover:opacity-100 group-hover:w-full mx-auto"></div>
+                                <div className="opacity-0 bg-yellow-400 h-[3px] w-0 rounded-xl duration-700 group-hover:opacity-100 group-hover:w-full mx-auto"></div>
                             </li>
                         </ul>
                         </div>

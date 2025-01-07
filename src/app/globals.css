@@ -12,6 +12,36 @@ html {
   
   .text-stroke-p{
     -webkit-text-stroke: 2px rgb(56, 56, 183);
+    text-shadow: 0 0 1px #00f, 0 0 1px #00f, 0 0 1px #00f, 
+                         0 0 1px #00f, 0 0 12px #00f;
   }
+  .bg-image-footer{
+    background: url('https://img.freepik.com/free-photo/panoramic-view-sunset-night_23-2148933764.jpg?t=st=1736062760~exp=1736066360~hmac=13ed0b296a84841019e73b7f795a8ade09f3fc3d6ba6adafb058402d66a3ab1e&w=1380');
+  }
+  
+.swiper {
+  width: 100%;
+  height: 100%;
+}
 
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* .swiper-wrapper{
+  width: fit-content;
+} */
 }

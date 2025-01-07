@@ -1,8 +1,9 @@
-"use client"
+import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
 import Navbar from "@/components/Navbar";
+import Project from "@/components/Project";
 import Skills from "@/components/Skills";
-import Image from "next/image";
+import WhatsAppbtn from "@/components/WhatsAppbtn";
 
 export default function Home() {
   return (
@@ -10,6 +11,9 @@ export default function Home() {
    <Navbar/>
    <HeroSection/>
    <Skills/>
+   <Project/>
+   <Footer/>
+   <WhatsAppbtn/>
    </>
   );
 }
