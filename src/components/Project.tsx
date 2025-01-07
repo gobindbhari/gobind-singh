@@ -45,7 +45,7 @@ const Project = () => {
 
   return (
     <>
-    <div id='projects' className="pt-10">
+    <div id='projects' className="pt-10 w-fit mx-auto">
     <div data-aos='zoom-in'  data-aos-duration='700' className="text-[170px] max-md:text-[100px] max-sm:text-[80px] min-w-fit max-md:max-w-[200px] mx-auto font-bold relative text-black text-stroke-p box-border ">
         <h2 className='mx-auto w-fit pb-5'>Projects</h2>
         
