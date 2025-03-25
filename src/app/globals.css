@@ -18,6 +18,12 @@ html {
   .bg-image-footer{
     background: url('https://img.freepik.com/free-photo/panoramic-view-sunset-night_23-2148933764.jpg?t=st=1736062760~exp=1736066360~hmac=13ed0b296a84841019e73b7f795a8ade09f3fc3d6ba6adafb058402d66a3ab1e&w=1380');
   }
+
+  @keyframes wiggle {
+    0% { transform: rotate(-7deg); }
+    50% { transform: rotate(7deg); }
+    100% { transform: rotate(-7deg); }
+  }
   
 .swiper {
   width: 100%;

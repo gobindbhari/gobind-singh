@@ -29,7 +29,7 @@ const Footer: React.FC = () => {
               <img
                 src="/icons/call-icon.svg"
                 alt="LinkedIn"
-                className="w-6 h-6 hover:scale-125 duration-500"
+                className="w-6 h-6 hover:scale-125 duration-500 hover:animate-[wiggle_0.2s_infinite]"
               />
             </Link>
             <Link data-aos="fade-up"  data-aos-anchor-placement="bottom-bottom" data-aos-duration='700' data-aos-delay="400" href="https://www.linkedin.com/in/gobind-singh-bhari/" target="_blank" rel="noopener noreferrer">
